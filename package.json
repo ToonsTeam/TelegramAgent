@@ -1,0 +1,26 @@
+{
+  "name": "toonstg",
+  "version": "1.0.0",
+  "main": "dist/bot.js",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/bot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.33.1",
+    "@fal-ai/client": "^1.2.1",
+    "@types/node": "^20.11.24",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
